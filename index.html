@@ -16,19 +16,414 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./base.css" />
 
 </head>
 
 <body>
-    <div class="max-w-7xl mx-auto grid grid-flow-col">
-        <div class="py-[12px]">
-            <b class="text-[#555]">Hotline: </b>
-            <span>0937.809.123</span>
+    <!-- Header -->
+    <div class="shadow-md z-10">
+        <!-- Top header -->
+        <div class="max-w-7xl mx-auto flex justify-between py-[12px]">
+            <div class="flex gap-[10px]">
+                <span>
+                    <b class="text-[#555]">Hotline: </b>
+                    <span>0937.809.123</span>
+                </span>
+
+                <div class="w-[1px] bg-[#ccc]"></div>
+
+                <span>Chào mừng các bạn đến với <b class="text-[#555]">Pet Shop</b></span>
+            </div>
+
+            <div class="flex gap-[10px]">
+                <span class="flex gap-[6px] items-center">
+                    <i class="fa-solid fa-key text-[#333]"></i>
+                    <span class="text-uppercase text-xs">ĐĂNG NHẬP</span>
+                </span>
+
+                <div class="w-[1px] bg-[#ccc]"></div>
+
+                <div class="flex items-center">
+                    <i class="fa-solid fa-cart-shopping text-[#333]"></i>
+                </div>
+
+                <div class="w-[1px] bg-[#ccc]"></div>
+
+                <div class="flex items-center">
+                    <p class="underline text-xs text-blue-400">Corporate Website</p>
+                </div>
+
+                <div class="w-[1px] bg-[#ccc]"></div>
+
+                <div class="flex items-center space-x-2">
+                    <img class="ae-icon-left ae-flag"
+                        src="data:image/gif;base64,R0lGODlhEAALANUAAPU8POwAAPQAAP96euUAAPdLS/QsHPk8Pf5dXf52dvZERPvMRPx3SvITE/1STvIuLvhSUvj4NflUVf5xcv1ubvQgIPUlJfENDfdDLfpAQPthYftFRfoAAPYqKv5ZWfn5PPr6QfxqavxmZvpdXfMZGfxLS/tKSfc3NvMzM/1UVOAAAPQfH/cxMfxPT/k6OvlzOvYzK/f3MPrAP/f3L/dgL/Z3KvlYWPYsLPzVS/fSMPg+NPX1JPZOKt0AAP0AAP8AACH5BAAAAAAALAAAAAAQAAsAAAaPwJ/w5yv6OByBUhAI/AbQRGJCCYk0Ixuk4BwgEJ6Ug8HIHE6sG/cJFpdkizOrY1EQfImwA7cAfWQ5MBYVAHcTKS0lDh8fETEYFiskhT4ULSYbGS8RMzWRJA0nBBwhmBkuETQ8O5INDSgqHCKZLjoYdAYGDRcXDyoCWDYSWwoKACcoKA8PPUtNzwTRKio91UEAOw=="
+                        alt="ap multilangauge">
+                    <span class="text-xs">Tiếng việt</span>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- Nav header -->
+        <div class="max-w-7xl mx-auto flex justify-between py-[12px]">
+            <img alt="Pet Shop" src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/logo.png?1632380301806">
+
+            <div class="flex items-center gap-[20px]">
+                <a href="./index.html"
+                    class="px-[12px] py-[20px] font-bold text-2xl text-[#333] hover:text-white hover:bg-[#6c78b4]">
+                    Trang chủ
+                </a>
+                <a href="./san-pham.html"
+                    class="px-[12px] py-[20px] font-bold text-2xl text-[#333] hover:text-white hover:bg-[#6c78b4]">
+                    Sản phẩm
+                </a>
+                <a href="./gioi-thieu.html"
+                    class="px-[12px] py-[20px] font-bold text-2xl text-[#333] hover:text-white hover:bg-[#6c78b4]">
+                    Giới thiệu
+                </a>
+                <a href="./lien-he.html"
+                    class="px-[12px] py-[20px] font-bold text-2xl text-[#333] hover:text-white hover:bg-[#6c78b4]">
+                    Liên hệ
+                </a>
+            </div>
         </div>
     </div>
-    <hr />
+
+    <!-- Image banner -->
+    <div class="relative">
+        <img src="https://bizweb.dktcdn.net/100/147/060/themes/195230/assets/slide-img2.jpg?1632380301806" alt=""
+            class="w-full h-full" />
+        <div class="absolute top-[45%] left-0 w-full">
+            <div class="flex justify-between">
+                <div class="bg-black text-white opacity-40 w-[50px] h-[50px] flex items-center justify-center">
+                    <i class="fa-solid fa-angle-left text-white text-2xl"></i>
+                </div>
+
+                <div class="bg-black text-white opacity-40 w-[50px] h-[50px] flex items-center justify-center">
+                    <i class="fa-solid fa-angle-right text-white text-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto py-[40px]">
+        <h1 class="text-center text-[#263882] text-4xl underline underline-offset-8">Sản phẩm của Pet Shop</h1>
+
+        <div class="grid grid-cols-4 py-11 gap-4">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm1.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm1.png?1632380301806"
+                alt="/tui-xach-balo">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm2.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm2.png?1632380301806"
+                alt="/quan-ao">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm3.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm3.png?1632380301806"
+                alt="/phong-ngu">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm4.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm4.png?1632380301806"
+                alt="/nha-bep">
+        </div>
+
+        <div class="flex items-center justify-center space-x-10">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm5.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm5.png?1632380301806"
+                alt="/hanh-trang-cua-be">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm6.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm6.png?1632380301806"
+                alt="/bop-vi-tui">
+            <img class="icon multilang w-[262px] h-[262px] hover:cursor-pointer hover:translate-y-[20px] transition-transform duration-[400ms]"
+                src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm7.png?1632380301806"
+                data-en="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/image-dm7.png?1632380301806"
+                alt="/non-khau-trang">
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto py-[40px]">
+        <div class="flex items-center justify-between">
+            <h1 class="font-bold text-[25px]">Sản phẩm nổi bật</h1>
+            <div class="flex items-center">
+                <div
+                    class="px-[16px] py-[8px] border text-[#555] hover:cursor-pointer hover:bg-[#6c78b4] hover:text-white">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div
+                    class="px-[16px] py-[8px] border text-[#555] hover:cursor-pointer hover:bg-[#6c78b4] hover:text-white">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-[20px] h-[1px] bg-[#ccc]"></div>
+
+        <div class="grid grid-cols-4 py-[20px] gap-4">
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO  DBG-189"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/dbg-189-2.jpg?v=1629180307000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DBG-189
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">429.000đ</p>
+            </div>
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO  DOBG-035"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/petshop-1-9571f037-5b81-4dd3-a810-95cba60ce31b.jpg?v=1629168723000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DOBG-035
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">629.000đ</p>
+            </div>
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO  DBG-915"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/dbg-915-2.jpg?v=1629168048000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DBG-915
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">559.000đ</p>
+            </div>
+            <div class="">
+                <img src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/dbg-968-1.jpg?v=1629167474000"
+                    class="w-[270px] h-[270px]" alt="BALO  DBG-968">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DBG-968
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">479.000đ</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto py-[40px]">
+        <div class="flex items-center justify-between">
+            <h1 class="font-bold text-[25px]">Đang khuyến mãi</h1>
+            <div class="flex items-center">
+                <div
+                    class="px-[16px] py-[8px] border text-[#555] hover:cursor-pointer hover:bg-[#6c78b4] hover:text-white">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div
+                    class="px-[16px] py-[8px] border text-[#555] hover:cursor-pointer hover:bg-[#6c78b4] hover:text-white">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-[20px] h-[1px] bg-[#ccc]"></div>
+
+        <div class="grid grid-cols-4 py-[20px] gap-4">
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO THÚ CƯNG - HÀNH TRANG CHO BÉ BG-085B"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/bg-085-b-5.jpg?v=1629181178000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DBG-189
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">379.000đ</p>
+            </div>
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO THÚ CƯNG - HÀNH TRANG CHO BÉ BG-385"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/bg-385-5.jpg?v=1629178998000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DOBG-035
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">379.000đ</p>
+            </div>
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO THÚ CƯNG - HÀNH TRANG CHO BÉ DOBG-012"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/dobg-012-2.jpg?v=1629174462000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DBG-915
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">419.000đ</p>
+            </div>
+            <div class="">
+                <img class="w-[270px] h-[270px]" alt="BALO THÚ CƯNG - HÀNH TRANG CHO BÉ BBG-048"
+                    src="//bizweb.dktcdn.net/thumb/medium/100/147/060/products/bbg-048-2.jpg?v=1629173876000">
+                <p class="pt-5 text-lg font-bold text-center text-[#555] hover:text-[#6c78b4] hover:cursor-pointer">BALO
+                    DBG-968
+                </p>
+
+                <p class="pt-3 text-base font-bold text-center text-red-400">419.000đ</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto">
+        <img class="banner-petshop multilang" alt="Hệ Thống Cửa Hàng Pet Shop"
+            src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/promo-banner1.png?1632380301806"
+            data-en="https://bizweb.dktcdn.net/100/147/060/files/banner3-en.png?v=1504162353153">
+    </div>
+
+    <!-- Footer -->
+    <div class="">
+        <div class="bg-[#F9F9F9] border-t-[1px] border-[#ccc] mt-12 py-[32px]">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="flex flex-col items-center gap-3.5">
+                        <i class="fa-solid fa-truck text-4xl"></i>
+                        <p class="text-center font-bold text-2xl text-[#333]">Vận Chuyển Nhanh Chóng</p>
+                        <p class="text-center tex-[#ccc]">Miễn phí giao hàng trong nội thành Thành Phố Vũng Tàu</p>
+                    </div>
+
+                    <div class="flex flex-col items-center gap-3.5">
+                        <i class="fa-solid fa-info text-4xl"></i>
+                        <p class="text-center font-bold text-2xl text-[#333]">Hỗ Trợ Khách Hàng</p>
+                        <p class="text-center tex-[#ccc]">Hỗ trợ trực tuyến và qua đường dây nóng 24/7</p>
+                    </div>
+
+                    <div class="flex flex-col items-center gap-3.5">
+                        <i class="fa-solid fa-heart text-4xl"></i>
+                        <p class="text-center font-bold text-2xl text-[#333]">Sản Phẩm Chất Lượng</p>
+                        <p class="text-center tex-[#ccc]">Chất vải 100% cotton dày dặn, bền màu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#6c78b4] py-[28px]">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-5 gap-6 text-white">
+                    <div class="">
+                        <img src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/footer-logo.png?1632380301806"
+                            alt="Logo">
+                        <p class="mt-4">GPKD: 3500376775 - Ngày cấp: 24/1/2000</p>
+                    </div>
+
+                    <div class="">
+                        <p class="font-bold">TÀI KHOẢN CỦA BẠN</p>
+                        <ul class="mt-4">
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Xem trạng thái đơn hàng</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Lịch sử đơn hàng</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Tìm kiếm</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Chính sách bảo mật</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="">
+                        <p class="font-bold">HỖ TRỢ</p>
+                        <ul class="mt-4">
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Liên hệ hỗ trợ</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Chính sách đổi hàng</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Hướng dẫn mua hàng</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Quan điểm kinh doanh</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="">
+                        <p class="font-bold">VỀ PET SHOP</p>
+                        <ul class="mt-4">
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Giới thiệu Pet Shop</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Các Cửa hàng Pet Shop</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Tuyển dụng</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">Blog Bé Bo</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="">
+                        <p class="font-bold">LIÊN HỆ</p>
+                        <ul class="mt-4">
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">62/4 Trần Bình Trọng, Phường 8, TP.
+                                    Vũng Tàu</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">0937.809.123</p>
+                            </li>
+                            <li class="flex items-center gap-2 mt-3">
+                                <i class="fa-solid fa-angle-right text-xs"></i>
+                                <p class="hover:text-black hover:cursor-pointer">thanglongvt@petshop.vn</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#191919] py-[20px]">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/payment-1.png?1632380301806"
+                            alt="Pet Shop" class="w-[50px]">
+                        <img src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/payment-2.png?1632380301806"
+                            alt="Pet Shop" class="w-[50px]">
+                        <img src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/payment-3.png?1632380301806"
+                            alt="Pet Shop" class="w-[50px]">
+                        <img src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/payment-4.png?1632380301806"
+                            alt="Pet Shop" class="w-[50px]">
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <img src="//bizweb.dktcdn.net/100/147/060/themes/195230/assets/logo_bct.png?1632380301806"
+                            class="w-[150px] h-[50px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#111111] py-[20px]">
+            <div class="max-w-7xl mx-auto">
+                <p class="text-[#ccc]">© 2016-2020 CÔNG TY TNHH MAY MẶC THĂNG LONG | Thiết Kế & Nội Dung bởi <b>PETSHOP
+                        VIỆT NAM.</b></p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
